@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { HealthCheck } from './pages/HealthCheck';
+import { Calculator } from './pages/Calculator';
 import { DietExercise } from './pages/DietExercise';
 import { Tips } from './pages/Tips';
 import { DoctorAdvice } from './pages/DoctorAdvice';
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/health-check" element={<HealthCheck />} />
+        <Route path="/calculator" element={<Calculator />} />
         <Route path="/diet-exercise" element={<DietExercise />} />
         <Route path="/tips" element={<Tips />} />
         <Route path="/doctor-advice" element={<DoctorAdvice />} />

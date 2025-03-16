@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import ppl_running from '../Assets/ppl_running.jpg'
+import tr2 from '../Assets/tr2.png'
 
 export function Home() {
   return (
@@ -6,16 +8,17 @@ export function Home() {
       <div className="max-w-2xl mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome To</h1>
-          <h2 className="text-4xl font-bold text-gray-900">My BMD Clinic</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Your BMD Clinic</h2>
           
           <div className="mt-8 mb-12">
             <img
-              src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200&h=200"
+              src={tr2}
+              // src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200&h=200"
               alt="Doctor"
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
-            <h3 className="text-xl font-bold text-gray-900">DR. SARAH MITCHELL</h3>
-            <p className="text-gray-600">BONE HEALTH SPECIALIST</p>
+            <h3 className="text-xl font-bold text-gray-900">Tarsem Singh Bhola</h3>
+            <p className="text-gray-600">Provectus Pharma</p>
           </div>
 
           <p className="text-lg text-gray-700 mb-8">
@@ -31,7 +34,8 @@ export function Home() {
 
           <div>
             <img
-              src="https://images.unsplash.com/photo-1609899464726-209befaac5bc?auto=format&fit=crop&q=80&w=600"
+              src={ppl_running}
+              // src="https://images.unsplash.com/photo-1609899464726-209befaac5bc?auto=format&fit=crop&q=80&w=600"
               alt="Active seniors maintaining bone health"
               className="rounded-lg shadow-lg w-full object-cover h-[600px]"
             />

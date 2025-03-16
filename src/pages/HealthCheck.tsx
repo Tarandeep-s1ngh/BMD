@@ -31,7 +31,7 @@ export function HealthCheck() {
               </Link>
 
               <Link
-                to="/risk-factors"
+                // to="/risk-factors"
                 className="flex items-center p-4 bg-gradient-to-r from-pink-500 to-pink-600 rounded-lg text-white hover:from-pink-600 hover:to-pink-700 transition-all"
               >
                 <Activity className="w-8 h-8 mr-4" />
